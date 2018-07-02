@@ -1,0 +1,37 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - react-native-fast-image (4.0.14):
+    - FLAnimatedImage
+    - React
+    - SDWebImage/Core
+    - SDWebImage/GIF
+  - React/Core (0.11.0)
+  - SDWebImage/Core (4.4.1)
+  - SDWebImage/GIF (4.4.1):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+
+DEPENDENCIES:
+  - react-native-fast-image (from `../node_modules/react-native-fast-image`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FLAnimatedImage
+    - React
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  react-native-fast-image:
+    :path: "../node_modules/react-native-fast-image"
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  react-native-fast-image: cba3d9bf9c2cf8ddb643d887a686c53a5dd90a2c
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+
+PODFILE CHECKSUM: 0dbc092c6c05d71870f7689d64aa81e0fcaef18b
+
+COCOAPODS: 1.5.3
