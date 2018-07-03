@@ -12,6 +12,8 @@ import {
   View
 } from 'react-native';
 
+import FastImage from 'react-native-fast-image'
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
     'Cmd+D or shake for dev menu',
@@ -33,6 +35,11 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>
           {instructions}
         </Text>
+
+        <FastImage
+          style={{ width: 100, height: 100, }}
+          source={{ uri: 'https://unsplash.it/100/100', }}
+        />
       </View>
     );
   }
